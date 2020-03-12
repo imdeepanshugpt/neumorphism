@@ -1,0 +1,51 @@
+body {
+  background-color: #e0e5ec;
+}
+
+.box1 {
+  border-radius: 40px;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  /* Basic styling and alignment */
+  /* For Neumorphism Effect */
+  background-color: #e0e5ec;
+  box-shadow: 9px 9px 16px rgb(163, 177, 198, 0.6),
+    -9px -9px 16px rgba(255, 255, 255, 0.5);
+  /* For Neumorphism Effect */
+}
+
+.box2 {
+  border-radius: 4px;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  /* Basic styling and alignment */
+  /* For Neumorphism Effect */
+  background-color: #e0e5ec;
+  box-shadow: inset 9px 9px 16px rgb(163, 177, 198, 0.6),
+    inset -9px -9px 16px rgba(255, 255, 255, 0.5);
+  /* For Neumorphism Effect */
+}
+
+.button {
+  background-color: #e0e5ec;
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+  box-shadow: 9px 9px 16px rgb(163, 177, 198, 0.6), -9px -9px 16px rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.button span{
+  background-color:lightcoral;
+  width: 100%;
+  height: 4px;
+  display: flex;
+  cursor: pointer;
+  border-radius: 4px;
+  margin: 2px 0px;
+}
